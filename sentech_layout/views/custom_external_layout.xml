@@ -6,7 +6,7 @@
         <t t-set="company" t-value="company_id"/>
 
                 <div t-attf-class="o_company_#{o.company_id.id}_layout header" t-att-style="report_header_style">
-                    <img t-att-src="'/oln_report/static/src/img/entete_de_page.png'" align="center" width="850" height="140"/>
+                    <img t-att-src="'/sentech_layout/static/src/img/entete_de_page.png'" align="center" width="850" height="140"/>
                 </div>
 
 
@@ -21,7 +21,7 @@
 
                 <div class="footer">
                     <div class="row">
-                        <img t-att-src="'/oln_report/static/src/img/pied_de_page.png'" width="850" height="80"/>
+                        <img t-att-src="'/sentech_layout/static/src/img/pied_de_page.png'" width="850" height="80"/>
                     </div> 
                 </div>
     </template>
