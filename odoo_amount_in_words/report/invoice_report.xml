@@ -3,7 +3,8 @@
      <template id="invoice_report_amount_in_words_inherit" inherit_id="account.report_invoice_document">
             <xpath expr="//div[@class='clearfix']" position="after">
                  <div style="padding-top:20px; padding-bottom:20px;">
-                    <p><span><strong>En votre aimable règlement, la somme TTC de: </strong></span><span t-field="o.amount_words"/></p>                    
+                    <p><span><strong>Montant total en lettres: </strong></span><span t-field="o.amount_words"/></p> 
+                     <p><span><strong>Numéro de compte bancaire: </strong></span><span t-field="o.personal_partner_bank_id.acc_number"/></p>
                 </div>
             </xpath>
         </template>
