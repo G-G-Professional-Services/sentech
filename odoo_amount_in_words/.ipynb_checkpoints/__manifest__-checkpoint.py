@@ -16,7 +16,6 @@
         'report/sale_order_report.xml',
         'report/purchase_order_report.xml',
         'report/invoice_report.xml',
-        'wizard/account_payment_register.xml',
     ],
     'qweb': [],
     'images': ['static/description/odoo_amount_in_words_banner.png'],
