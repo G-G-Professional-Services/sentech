@@ -27,6 +27,7 @@
         'views/custom_external_layout.xml',
         'views/sale_order.xml',
         'report/invoice_report.xml',
+        'report/sale_order_report.xml',
     ],
     # only loaded in demonstration mode
     
