@@ -25,6 +25,7 @@
     'data': [
         
         'views/custom_external_layout.xml',
+        'report/invoice_report.xml',
     ],
     # only loaded in demonstration mode
     
