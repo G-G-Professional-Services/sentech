@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="invoice_report_sentech_inherit" inherit_id="account.report_invoice_document">
-        <xpath expr="//p[@name='payment_communication']" position="after">
-               <!-- <div class="row">
+        <xpath expr="//p[@name='comment']" position="after">
+                <div class="row">
                     <div class="col">
                         <p class="text-right"><strong>La Direction Générale de SENTECH </strong></p>
                     </div>                    
-                </div> -->
+                </div>
             </xpath>
     </template>
 </odoo>
