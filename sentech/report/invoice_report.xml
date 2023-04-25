@@ -4,7 +4,7 @@
         <xpath expr="//div[@class='clearfix']" position="after">
                 <div class="row">
                     <div class="col">
-                        <span><p class="text-right"><strong>La Direction Générale de SENTECH </strong></p></span>
+                        <p class="text-right"><strong>La Direction Générale de SENTECH </strong></p>
                     </div>                    
                 </div>
             </xpath>
