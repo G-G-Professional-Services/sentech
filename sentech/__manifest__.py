@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sentech_layout",
+    'name': "sentech",
 
     'summary': """
         Module pour afficher les entêtes et les pieds de page de la structure SENTECH""",

@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_sentech_layout_sentech_layout,sentech_layout.sentech_layout,model_sentech_layout_sentech_layout,base.group_user,1,1,1,1
