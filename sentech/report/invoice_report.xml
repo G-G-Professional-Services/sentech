@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="sale_report_amount_in_words_inherit" inherit_id="sale.report_saleorder_document">
+    <template id="invoice_report_sentech_inherit" inherit_id="sale.report_saleorder_document">
         <xpath expr="//div[@class='clearfix']/p[@name='payment_communication']" position="after">
                 <div class="row">
                     <div class="col">
