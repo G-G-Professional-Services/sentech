@@ -8,7 +8,7 @@ from odoo.exceptions import UserError
 
 
 class SaleAdvancePaymentInv(models.TransientModel):
-    _name = "sale.advance.payment.inv"
+    _inherit = 'sale.advance.payment.inv'
     _description = "Sales Advance Payment Invoice"
 
     @api.model
