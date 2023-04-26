@@ -19,12 +19,15 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'account', 'sale'],
 
     # always loaded
     'data': [
-        
         'views/custom_external_layout.xml',
+        'views/sale_order.xml',
+        'views/invoice_view.xml',
+        'report/invoice_report.xml',
+        'report/sale_order_report.xml',
     ],
     # only loaded in demonstration mode
     
