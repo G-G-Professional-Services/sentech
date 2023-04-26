@@ -23,7 +23,6 @@
 
     # always loaded
     'data': [
-        
         'views/custom_external_layout.xml',
         'views/sale_order.xml',
         'views/invoice_view.xml',
