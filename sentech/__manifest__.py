@@ -3,7 +3,7 @@
     'name': "sentech",
 
     'summary': """
-        Module pour afficher les entêtes et les pieds de page de la structure SENTECH""",
+        Module pour afficher les entêtes et les pieds de page de la structure SENTECH .""",
 
     'description': """
         Long description of module's purpose
