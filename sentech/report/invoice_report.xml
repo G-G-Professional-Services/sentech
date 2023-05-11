@@ -8,5 +8,10 @@
                     </div>                    
                 </div>
             </xpath>
+        <xpath expr="//h2" position="after">
+                 <div style="padding-top:20px; padding-bottom:20px;">
+                    <p><span><strong>Libellé: </strong></span><span t-field="doc.libelle"/></p>                    
+                </div>
+            </xpath>
     </template>
 </odoo>
