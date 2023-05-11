@@ -8,7 +8,7 @@
                     </div>                    
                 </div>
             </xpath>
-        <xpath expr="//h2" position="after">
+        <xpath expr="//div[@id='informations']" position="before">
                  <div style="padding-top:20px; padding-bottom:20px;">
                     <p><span><strong>Libellé: </strong></span><span t-field="doc.libelle"/></p>                    
                 </div>
