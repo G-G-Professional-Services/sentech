@@ -3,7 +3,7 @@
     <template id="invoice_report_sentech_inherit" inherit_id="account.report_invoice_document">
         <xpath expr="//div[@name='invoice_date']" position="before">
                  <div style="padding-top:20px; padding-bottom:20px;">
-                    <p><span><strong>Libellé: </strong></span><span t-field="doc.libelle"/></p>                    
+                    <p><span><strong>Libellé: </strong></span><span t-field="o.libelle"/></p>                    
                 </div>
             </xpath>
         <xpath expr="//p[@name='comment']" position="after">
